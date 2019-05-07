@@ -1,0 +1,80 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* App */
+
+/* Just making sure everything fits to container */
+body { height: 100%; width: 100%; }
+#app{ height: 100%; }
+.community { height: 100%; }
+.boxes { height: 100%; }
+
+#navigation{ background: gray; }
+nav{ display: flex; justify-content: space-evenly; padding: 10px; }
+a{ font-size: 24px; color: #fff; }
+a:hover{ color: rgb(241, 193, 193); }
+
+.fill{
+    height: 100%;
+}
+#search, #shop, #settings, #community, #profile {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#search-bar form{
+    padding: 10px;
+    margin: 10px;
+    width: 100%; 
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid grey;
+}
+#search-bar input{
+    padding-left: 10px;
+    background: pink;
+    height: 25px;
+    font-size: 19px;
+    border-left: solid grey 2px;
+}
+
+div#search-bar form .fas{
+    padding-right: 10px;
+    color: gray;
+}
+#bar{
+    width: 100%;
+    padding: 0;
+    border: 0px;
+}
+#search-bar{
+    display: flex;
+    width: 100%;
+}
+
+.boxes {
+  display: flex;
+}
+.box1 {
+  width: 100%;
+  background: blue;
+}
+
+.box2 {
+  width: 100%;
+  background: red;
+}
+
