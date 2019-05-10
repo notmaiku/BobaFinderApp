@@ -1,6 +1,7 @@
 <template>
   <div id="community">
     <h1>Where is the hype</h1>
+    <Chat/>
     <div class="boxes">
       <div class="box1">.</div>
       <div class="box2">.</div>
@@ -11,10 +12,13 @@
 
 <script>
 import Nav from "@/components/Nav.vue";
+import Chat from "@/components/Chat.vue";
 
 export default {
   name: "community",
-  components: { Nav,  }
+  components: { Nav, 
+  Chat 
+  }
 };
 </script>
 

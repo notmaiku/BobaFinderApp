@@ -78,3 +78,29 @@ div#search-bar form .fas{
   background: red;
 }
 
+/* Slider stuff */
+.slider{
+    margin:  0 auto;
+    width: 50%;
+    position: relative;
+}
+
+.slider img{
+    width: 100%;
+}
+.prev{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    font-size: 60px;
+}
+.next{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    font-size: 60px;
+} 
+
+.rating{
+    margin: auto;
+}
