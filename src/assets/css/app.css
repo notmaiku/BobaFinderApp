@@ -37,7 +37,7 @@ a:hover{ color: rgb(241, 193, 193); }
     padding: 10px;
     margin: 10px;
     width: 100%; 
-    background: pink;
+    background: rgb(241, 252, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +45,7 @@ a:hover{ color: rgb(241, 193, 193); }
 }
 #search-bar input{
     padding-left: 10px;
-    background: pink;
+    background: rgb(241, 252, 255);
     height: 25px;
     font-size: 19px;
     border-left: solid grey 2px;

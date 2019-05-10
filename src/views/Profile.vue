@@ -22,13 +22,6 @@ export default {
 };
 </script>
 
-<style scoped>
-.profile{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: space-evenly;
-}
+<style>
 </style>
 
