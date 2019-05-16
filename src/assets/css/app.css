@@ -78,6 +78,17 @@ div#search-bar form .fas{
   background: red;
 }
 
+/* Accounts and Signup */
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup input{
+    border: 1px solid red;
+}
 /* Slider stuff */
 .slider{
     margin:  0 auto;
