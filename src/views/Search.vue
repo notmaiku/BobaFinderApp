@@ -12,6 +12,7 @@
 
 <script>
 // @ is an alias to /src
+import firebase from 'firebase';
 import HelloWorld from "@/components/HelloWorld.vue";
 import Nav from "@/components/Nav.vue";
 import Search from "@/components/Search-bar.vue";

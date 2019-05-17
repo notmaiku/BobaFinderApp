@@ -1,27 +1,25 @@
 <template>
-  <div id="settings">
-    <vuetable
-      ref="vuetable"
-      api-url="https://vuetable.ratiw.net/api/users"
-      :fields="['name', 'email', 'birthdate']"
-    ></vuetable>
+<div id="settings">
+    <ProfileCorner />
+    <fav />
     <div class="boxes">
-      <div class="box1"/>
-      <div class="box2"/>
+        <div class="box1" />
+        <div class="box2" />
     </div>
-    <Nav/>
-  </div>
+    <Nav />
+</div>
 </template>
 
 <script>
-import Vuetable from "vuetable-2/src/components/Vuetable";
 import Nav from "@/components/Nav.vue";
+import ProfileCorner from '@/components/ProfileCorner.vue';
+import fav from '@/components/Favorites.vue';
 
 export default {
-  name: "settings",
-  components: {
-    Vuetable,
-    Nav
-  }
+    name: "settings",
+    components: {
+        Nav,
+        fav
+    }
 };
 </script>

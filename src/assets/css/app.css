@@ -79,15 +79,55 @@ div#search-bar form .fas{
 }
 
 /* Accounts and Signup */
+
+.profile-corner{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.profile-corner input{
+    width: 100%;
+    border: 1px solid (rgba(156, 156, 156, 0.671));
+    margin: 10px 0;
+    height: 40px;
+    padding: 0 20px;
+}
+
+.profile-corner button{
+    margin: 10px auto;
+    padding: 10px;
+    width: 50%;
+    background: rgb(243, 223, 223);
+
+}
+.profile-corner form{
+    display: flex;
+    flex-direction: column;
+}
+
 .sign-up{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .signup input{
     border: 1px solid red;
+}
+
+.favorites{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.favorites h2{
+    margin: auto;
+    width: 100%;
 }
 /* Slider stuff */
 .slider{
@@ -115,3 +155,5 @@ div#search-bar form .fas{
 .rating{
     margin: auto;
 }
+
+
